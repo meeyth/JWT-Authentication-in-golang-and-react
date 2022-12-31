@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Andika&display=swap');
+
+* {
+  font-family: 'Andika', sans-serif;
+}
+
+body {
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.form-container {
+  border: 1px solid lightgray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: rgb(123, 143, 255);
+}
+
+form {
+  border-top: 2px solid lightgray;
+  height: 18rem;
+  width: 20rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: .5rem;
+  padding: .5rem;
+}
+
+input {
+  font-size: 1.1rem;
+  height: 15%;
+  width: 70%;
+  border: none;
+  padding: .5rem;
+  outline: none;
+  border-bottom: 1px solid gray;
+}
+
+
+.sub-btn {
+  margin-top: .5rem;
+  width: 120px;
+  height: 45px;
+  cursor: pointer;
+  border-radius: 50px;
+  background-color: transparent;
+  border: 2px solid rgb(123, 143, 255);
+  color: rgb(123, 143, 255);
+  font-weight: 600;
+  transition: .5s;
+}
+
+.sub-btn:hover {
+  border: 2px solid rgb(255, 207, 207);
+  background-color: rgb(123, 143, 255);
+  color: rgb(255, 255, 255);
+}
+
+.link {
+  text-decoration: none;
+  color: rgb(100, 100, 100);
+  font-weight: 500;
+  border-bottom: 2px solid lightgray;
+}
+
+.err-msg {
+  color: #F5564A;
+  margin: 0;
+}
+
+h1 {
+  color: rgb(123, 143, 255);
+}
+
+.user-details-card {
+  display: flex;
+  flex-direction: column;
+  padding: 1.5rem;
+  border-radius: 20px;
+  border: 2px solid lightgray;
+}
+
+p {
+  color: rgb(59, 59, 59);
+}
